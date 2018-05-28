@@ -15,3 +15,7 @@ alias la='exa -la --group-directories-first --time-style long-iso'
 # SSH
 alias sshj='ssh u1708480@joshua.dcs.warwick.ac.uk'
 alias sshr='ssh jtattersall@radio.warwick.ac.uk'
+
+# ZSH CONFIG SHORTCUTS
+alias zshconf='subl ~/.zshrc'
+alias omz='xdg-open ~/.oh-my-zsh/custom'
