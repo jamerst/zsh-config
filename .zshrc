@@ -62,8 +62,9 @@ plugins=(
 	autoupdate
   	colored-man-pages
 	fast-syntax-highlighting
+	# zsh-syntax-highlighting
   	git
-  	safe-paste
+  	# safe-paste
   	zsh-autosuggestions
 )
 
@@ -98,3 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# add warning before using rm
+unsetopt RM_STAR_SILENT
